@@ -19,6 +19,7 @@ SET(RANGES_PATH "" CACHE STRING "Path to the installation path of Ranges-v3")
 SET(CPPCORO_PATH "" CACHE STRING "Path to the installation path of cppcoro")
 SET(SKIP_TEST_PROJECTS false CACHE BOOL "Flag to prevent the generation of unit test projects")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin")
+set(CPPCORO_PATH "${CMAKE_SOURCE_DIR}/../cppcoro")
 
 add_subdirectory(chapter01)
 add_subdirectory(chapter02)
