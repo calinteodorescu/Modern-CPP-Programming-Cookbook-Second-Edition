@@ -14,12 +14,21 @@ using int_point = point<int>;
 
 constexpr int_point int_point_zero{ 0,0 };
 
-template <class T>
-double distance(point<T> const& p1,
-   point<T> const& p2)
+template < class T > double distance( point< T > const& p1,
+                                      point< T > const& p2
+                                    )
 {
-   return std::sqrt((p2.x - p1.x) * (p2.x - p1.x) +
-      (p2.y - p1.y) * (p2.y - p1.y));
+   return std::sqrt( ( ( p2.x - p1.x )
+                       *    
+                       ( p2.x - p1.x )
+                     )
+                     +
+                     ( ( p2.y - p1.y )
+                       *
+                       ( p2.y - p1.y )
+                     )
+                   )
+    ;
 }
 
 namespace geometry_literals

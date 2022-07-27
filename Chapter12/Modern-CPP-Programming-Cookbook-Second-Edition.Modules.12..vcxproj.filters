@@ -59,6 +59,15 @@
     <ClCompile Include="chapter12_08_1\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="chapter12_02_2\geometry.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_02_2\geometry-core.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_02_2\geometry-literals.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter12_01_3\geometry.h">
