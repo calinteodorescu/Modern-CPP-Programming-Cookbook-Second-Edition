@@ -4,6 +4,9 @@
 #include <iostream>
 #include <cstring>
 
+#define HAS_BITS_LIBRARY true
+#undef HAS_BITS_LIBRARY
+
 #ifdef HAS_BITS_LIBRARY
 #include <bit>
 #else
