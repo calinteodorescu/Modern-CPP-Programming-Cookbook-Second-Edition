@@ -12,7 +12,7 @@ endif()
 message(status "** CMAKE_CXX_FLAGS: ${CMAKE_CXX_FLAGS}")
 
 SET(BOOST_PATH "" CACHE STRING "Path to the installation path of Boost")
-SET(GTEST_PATH "" CACHE STRING "Path to the installation path of Google Test")
+SET(GTEST_PATH "../googletest/googletest/include" CACHE STRING "Path to the installation path of Google Test")
 SET(GTEST_PATH_LIB "" CACHE STRING "Path to the Google Test libraries directory")
 SET(CATCH_PATH "" CACHE STRING "Path to the installation path of Catch2")
 SET(RANGES_PATH "" CACHE STRING "Path to the installation path of Ranges-v3")
