@@ -1,4 +1,4 @@
-module geometry:details;
+export module geometry:details;
 
 import std.core;
 

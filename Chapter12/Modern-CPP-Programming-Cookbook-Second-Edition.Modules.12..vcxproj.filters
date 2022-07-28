@@ -26,9 +26,6 @@
     <ClCompile Include="chapter12_02_1\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter12_02_2\geometry-details.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="chapter12_02_2\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -69,6 +66,9 @@
       <Filter>Module Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\geometry-literals.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_02_2\geometry-details.ixx">
       <Filter>Module Files</Filter>
     </ClCompile>
   </ItemGroup>

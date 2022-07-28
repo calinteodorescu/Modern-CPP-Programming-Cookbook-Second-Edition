@@ -152,7 +152,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\geometry-core.ixx" />
-    <ClCompile Include="chapter12_02_2\geometry-details.cpp" />
+    <ClCompile Include="chapter12_02_2\geometry-details.ixx" />
     <ClCompile Include="chapter12_02_2\geometry-literals.ixx" />
     <ClCompile Include="chapter12_02_2\geometry.ixx" />
     <ClCompile Include="chapter12_02_2\main.cpp">
