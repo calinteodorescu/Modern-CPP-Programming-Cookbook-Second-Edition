@@ -9,6 +9,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Module Files">
+      <UniqueIdentifier>{9d40bdf2-4dc6-40fd-bf0b-07aa3c7ee177}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter12_01_1\main.cpp">
@@ -60,13 +63,13 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\geometry.ixx">
-      <Filter>Header Files</Filter>
+      <Filter>Module Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\geometry-core.ixx">
-      <Filter>Header Files</Filter>
+      <Filter>Module Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\geometry-literals.ixx">
-      <Filter>Header Files</Filter>
+      <Filter>Module Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
