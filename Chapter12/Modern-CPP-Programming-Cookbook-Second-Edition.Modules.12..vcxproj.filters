@@ -1,83 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
+    <Filter Include="%2a%2a Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
+    <Filter Include="%2a%2a Module Files">
+      <UniqueIdentifier>{9d40bdf2-4dc6-40fd-bf0b-07aa3c7ee177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Module Files">
-      <UniqueIdentifier>{9d40bdf2-4dc6-40fd-bf0b-07aa3c7ee177}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter12_01_1\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_01_2\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_01_3\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_1\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_3\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_4\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_03\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_04\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_05\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_06\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_07\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_07_1\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_08\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_08_1\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\geometry.ixx">
-      <Filter>Module Files</Filter>
+      <Filter>%2a%2a Module Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\geometry-core.ixx">
-      <Filter>Module Files</Filter>
+      <Filter>%2a%2a Module Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\geometry-literals.ixx">
-      <Filter>Module Files</Filter>
+      <Filter>%2a%2a Module Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter12_02_2\geometry-details.ixx">
-      <Filter>Module Files</Filter>
+      <Filter>%2a%2a Module Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tests.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="Tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter12_01_3\geometry.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
