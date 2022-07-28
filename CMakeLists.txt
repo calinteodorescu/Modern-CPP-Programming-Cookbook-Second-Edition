@@ -17,7 +17,7 @@ SET(GTEST_PATH_LIB "D:/Git/Catch2")
 SET(CATCH_PATH "D:/Git/Catch2")
 SET(RANGES_PATH "" CACHE STRING "Path to the installation path of Ranges-v3")
 SET(CPPCORO_PATH "D:/Git/cppcoro")
-SET(SKIP_TEST_PROJECTS false CACHE BOOL "Flag to prevent the generation of unit test projects")
+SET(SKIP_TEST_PROJECTS true CACHE BOOL "Flag to prevent the generation of unit test projects")
 SET(HAS_BITS_LIBRARY true CACHE BOOL "Flag")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin")
 
